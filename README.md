@@ -1,11 +1,11 @@
 # AI Delivery Assistant 
 
 Select Language:
-*  [English](#english) :us:
-*  [Português](#português) :brazil:
+* [English](#english) 🇺🇸
+* [Português](#portugues) 🇧🇷
 ---
 
-## *English* :us:
+## <a id="english">English</a> 🇺🇸
 
 ## About
 This repository contains an **AWS Step Functions** state machine definition using **JSONata** and **Amazon Bedrock (Nova Lite)** to automate a delivery service workflow.
@@ -44,7 +44,7 @@ The agent is responsible for:
 
 
 
-## *Português* :brazil:
+## <a id="portugues">Português</a> 🇧🇷
 
 ## Sobre
 
@@ -74,8 +74,8 @@ O agente é responsável por:
 
 ## 🚀 Como Executar
 
-1. Acesse o console do **AWS Step Functions**.
-2. Clique em **Create state machine**.
-3. Selecione a opção para escrever o código em **Definition** e escolha o formato **JSONata**.
-4. Cole o conteúdo do arquivo `assistente_delivery.json` no editor.
-5. Siga as instruções para criar a máquina associando as permissões necessárias para o Bedrock (`bedrock:InvokeModel`) e execute um teste com a entrada padrão.
+* Acesse o console do **AWS Step Functions**.
+* Clique em **Create state machine**.
+* Selecione a opção para escrever o código em **Definition** e escolha o formato **JSONata**.
+* Cole o conteúdo do arquivo `assistente_delivery.json` no editor.
+* Siga as instruções para criar a máquina associando as permissões necessárias para o Bedrock (`bedrock:InvokeModel`), e execute um teste com a entrada padrão.
