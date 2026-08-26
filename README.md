@@ -14,10 +14,12 @@ The agent is responsible for:
 1. **Extracting the customer order**: Analyzes the raw customer text and structures items, delivery address, and notes into JSON format.
 2. **Planning the route**: Processes the extracted data to generate optimized delivery instructions.
 3. **Generating the customer message**: Writes a polite, concise, and personalized communication based on the logistics plan.
+<br>
+<img width="335" height="427" alt="ai-delivery-assistant-workflow" src="https://github.com/user-attachments/assets/288731a8-d851-412a-9632-5e68e16041ec" />
 
 
 <br><br>
-## 🛠️ Technologies Used
+## 🛠️ Technologies
 
 * **AWS Step Functions**: Serverless workflow orchestration.
 * **JSONata**: Native data query and transformation language for Step Functions.
@@ -54,6 +56,8 @@ O agente é responsável por:
 1. **Extrair o pedido do cliente**: Analisa o texto bruto do cliente e estrutura os itens, o endereço de entrega e as observações em formato JSON.
 2. **Planejar a rota**: Processa os dados extraídos para gerar instruções de rota otimizadas.
 3. **Gerar a mensagem para o cliente**: Redige uma comunicação educada, enxuta e personalizada com base no plano logístico.
+<br>
+<img width="335" height="427" alt="ai-delivery-assistant-workflow" src="https://github.com/user-attachments/assets/288731a8-d851-412a-9632-5e68e16041ec" />
 
 <br><br>
 
